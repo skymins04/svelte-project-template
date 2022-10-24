@@ -1,3 +1,4 @@
+import path from "path";
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
 
@@ -12,6 +13,11 @@ const config = {
 	],
 
 	kit: {
+		alias: {
+			"@src/*": path.resolve('src'),
+			"@lib/*": path.resolve('src', 'lib'),
+			"@components/*": path.resolve('src', 'components'),
+		},
 		adapter: adapter()
 	}
 };
