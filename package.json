@@ -17,7 +17,7 @@
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@types/axios": "^0.14.0",
-		"@typescript-eslint/eslint-plugin": "^5.27.0",
+		"@typescript-eslint/eslint-plugin": "^5.41.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"autoprefixer": "^10.4.12",
 		"eslint": "^8.16.0",
